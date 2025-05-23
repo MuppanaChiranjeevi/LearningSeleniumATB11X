@@ -1,5 +1,6 @@
 package com.thetestingacademy.Ex02_Selenium_Basics;
 
+import io.qameta.allure.Description;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -10,6 +11,7 @@ import org.testng.annotations.Test;
 import java.io.File;
 
 public class Lab14_SeleniumMiniProject {
+    @Description("Add extension to browser")
     @Test
     public  void test_addExtension()  {
 
