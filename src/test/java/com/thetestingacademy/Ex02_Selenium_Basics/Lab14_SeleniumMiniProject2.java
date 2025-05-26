@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import java.io.File;
 
-public class Lab14_SeleniumMiniProject {
+public class Lab14_SeleniumMiniProject2 {
     @Description("Add extension to browser")
     @Test
     public  void test_addExtension()  {

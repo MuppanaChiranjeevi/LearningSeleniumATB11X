@@ -6,7 +6,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Lab09_SeleniumMiniProject {
+public class Lab09_SeleniumMiniProject1 {
     @Description("Katalon Appointment")
     @Test
     public void test(){
