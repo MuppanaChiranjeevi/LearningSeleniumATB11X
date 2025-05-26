@@ -15,6 +15,7 @@ public class CommonToAll {
         edgeOptions.addArguments("--start-maximized");
         edgeOptions.addArguments("--incognito");
         driver = new EdgeDriver(edgeOptions);
+        driver.manage().window().maximize();
 
     }
 
@@ -26,5 +27,12 @@ public class CommonToAll {
             throw new RuntimeException(e);
         }
 //        driver.quit();
+    }
+    public void waitForJVM(int time){
+        try {
+            Thread.sleep(time);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
