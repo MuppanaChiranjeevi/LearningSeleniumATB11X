@@ -11,7 +11,7 @@ public class CommonToAll {
     public void setUp(){
 
         EdgeOptions edgeOptions = new EdgeOptions();
-//        edgeOptions.addArguments("--guest");
+        edgeOptions.addArguments("--guest");
         edgeOptions.addArguments("--start-maximized");
         edgeOptions.addArguments("--incognito");
         driver = new EdgeDriver(edgeOptions);
