@@ -29,6 +29,7 @@ public class Lab04_SeleniumBasics {
         RemoteWebDriver driver5 = new ChromeDriver();
         ChromiumDriver  driver6 = new EdgeDriver();
         ChromeDriver  driver7 = new ChromeDriver();
+        RemoteWebDriver driver8 = new SafariDriver();
 
         // Do you want to run on Chrome then change to Edge ?
         WebDriver driver = new ChromeDriver();
